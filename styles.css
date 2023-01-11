@@ -1,0 +1,154 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+/******** HEADER AND FOOTER *********/
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #568EA3;
+    padding: 12px;
+}
+
+.account-buttons button{
+    background-color: #68C3D4;
+    border-radius: 13px;
+    border-width: 1px;
+}
+
+.account-buttons a{
+    text-decoration: none;
+}
+
+.logo-link{
+    text-decoration: none;
+    color: #FFFFFF;
+    
+}
+
+#footer {
+    background-color: #568EA3;
+    padding: 10px;
+    text-align: center;
+    color: rgb(94, 94, 94);
+    font-style: italic;
+    font-size: 12px;
+}
+
+/******** INDEX MAIN SECTION *********/
+#main-section{
+    display: flex;
+    justify-content: center;
+    background-color: #72a5b8;
+}
+
+#account-window{
+    width: 250px;
+    height: 100px;
+    color: black;
+    background-color: #568EA3;
+    padding: 2%;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#account-window .header{
+    font-size: large;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 10px;
+}
+
+#feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+    padding-right: 200px;
+    padding-left: 100px;
+}
+
+#user-search, #post-prompt, .post{
+    background-color: #568EA3;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+#user-search button{
+    border-radius: 8px;
+    border-width: 1px;
+}
+
+#user-search input{
+    border-radius: 4px;
+    border-style: none;
+}
+
+#post-prompt form{
+    display: flex;
+    flex-direction: column;
+}
+
+#post-prompt label{
+    color: black;
+    font-size: large;
+}
+#post-prompt textarea{
+    resize: none;
+}
+
+#post-prompt button{
+    width: 20%;
+}
+
+.post .post-username{
+    font-size: large;
+    color: black;
+    font-weight: bold;
+}
+.post .post-content{
+    background-color: #277c9c;
+    padding: 12px;
+    border-radius: 8px;
+}
+
+/******** LOGIN MAIN SECTION *********/
+
+#login, #create-account{
+    background-color: #277c9c;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 300px;
+    padding-top: 100px;
+    padding-bottom: 60%;
+}
+
+.login-header, .create-header{
+    font-size: xx-large;
+    padding-bottom: 20%;
+}
+
+.login-form form, .create-form form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: flex-start;
+}
+
+.warning{
+    display: inline;
+    font-size: small;
+    color: red;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+/******** CREATE ACCOUNT MAIN SECTION *********/
+

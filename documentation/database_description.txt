@@ -1,0 +1,24 @@
+user table
+user id
+username
+email
+password
+
+
+post table
+post id
+post
+user id
+posttime
+
+
+the post table has a forieng key to user id
+
+user id, post id, and post timestamp are generated automatically on insert.
+
+create account functionality inserts users into the user table.
+
+every new post is added to the post table.
+
+can use joins to find user info from posts.
+
